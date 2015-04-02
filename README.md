@@ -1,15 +1,9 @@
 # Sortirovka2
-/*! \file main.cpp
-Главный файл проекта
-*/
 
 #include <iostream>
 #include <ctime>
 using namespace std;
 
-/** \fn void quicksort(int *mas, int first, int last)
-Функция быстрой сортировки
-*/
 int first, last;
 void quicksort(int *mas, int first, int last)
 {
@@ -32,9 +26,6 @@ l--;
 if (first<l) quicksort(mas, first, l);
 if (f<last) quicksort(mas, f, last);
 }
-/** \fn void main()
-Главная функция проекта
-*/
 
 void main()
 {
